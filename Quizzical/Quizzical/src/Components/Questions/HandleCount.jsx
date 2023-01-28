@@ -1,23 +1,24 @@
 // import React, { useState } from "react";
-
+// // import { AppContext } from "./Components/ContextCount";
 // function HandleCount() {
-//   const [number, setNumber] = useState(5);
-
 //   const handleChange = (event) => {
 //     setNumber(event.target.value);
 //   };
 
 //   return (
-//     <div>
-//       <label>Enter a number:</label>
-//       <input
-//         className="numberInput"
-//         type="number"
-//         value={number}
-//         onChange={handleChange}
-//       />
-//     </div>
+//     // <AppContext.Consumer>
+//       {(value) => (
+//         <div>
+//           <label>Enter a number:</label>
+//           <input
+//             className="numberInput"
+//             type="number"
+//             value={value.contextValues.number}
+//             onChange={handleChange}
+//           />
+//         </div>
+//       )}
+//     // </AppContext.Consumer>
 //   );
 // }
-
 // export default HandleCount;

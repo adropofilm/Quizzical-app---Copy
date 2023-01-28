@@ -6,6 +6,7 @@ import Confetti from "react-confetti";
 import useSound from "use-sound";
 import Select from "../../assets/sounds/select.wav";
 import congrats from "../../assets/sounds/celebration.wav";
+
 // import HandleCount from "./HandleCount";
 
 function fetchQuestions() {
